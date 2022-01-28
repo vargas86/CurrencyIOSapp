@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA52CFAB27A39F5500AF1523 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52CFAA27A39F5500AF1523 /* CurrencyModel.swift */; };
 		FA9EC10D27A23B4C00E9B3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EC10C27A23B4C00E9B3D4 /* AppDelegate.swift */; };
 		FA9EC10F27A23B4C00E9B3D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EC10E27A23B4C00E9B3D4 /* SceneDelegate.swift */; };
 		FA9EC11127A23B4C00E9B3D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EC11027A23B4C00E9B3D4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA52CFAA27A39F5500AF1523 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		FA9EC10927A23B4C00E9B3D4 /* API IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EC10C27A23B4C00E9B3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9EC10E27A23B4C00E9B3D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA52CFA927A39F2C00AF1523 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA52CFAA27A39F5500AF1523 /* CurrencyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FA9EC10027A23B4C00E9B3D4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		FA9EC10B27A23B4C00E9B3D4 /* API IOS */ = {
 			isa = PBXGroup;
 			children = (
+				FA52CFA927A39F2C00AF1523 /* Models */,
 				FA9EC10C27A23B4C00E9B3D4 /* AppDelegate.swift */,
 				FA9EC10E27A23B4C00E9B3D4 /* SceneDelegate.swift */,
 				FA9EC11027A23B4C00E9B3D4 /* ViewController.swift */,
@@ -140,6 +151,7 @@
 			files = (
 				FA9EC11127A23B4C00E9B3D4 /* ViewController.swift in Sources */,
 				FA9EC10D27A23B4C00E9B3D4 /* AppDelegate.swift in Sources */,
+				FA52CFAB27A39F5500AF1523 /* CurrencyModel.swift in Sources */,
 				FA9EC10F27A23B4C00E9B3D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
